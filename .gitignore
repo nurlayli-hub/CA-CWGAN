@@ -1,0 +1,17 @@
+# data, generated pools, checkpoints and results are not versioned
+data/*
+!data/README.md
+*.csv
+*.json
+*.pt
+*.pt.tmp
+*.data
+*.data.Z
+results/
+*.png
+*.jpg
+
+# notebooks / python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

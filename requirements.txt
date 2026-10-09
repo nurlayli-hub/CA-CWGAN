@@ -1,0 +1,11 @@
+# Versions with which the notebooks were verified.
+# The paper's runs used Google Colab (Python 3, Tesla T4) with its preinstalled packages.
+# For a local GPU, install the CUDA build of PyTorch from https://pytorch.org first.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+imbalanced-learn==0.14.2
+lightgbm==4.7.0
+torch==2.14.0
+matplotlib==3.10.9
